@@ -1,0 +1,70 @@
+.background {
+  background-color: #F7F7F7;
+  height: 100vh;
+}
+
+.centered {
+  height: 40vh;
+  width: 50%;
+  background-color: #EBF9F6;
+  border: 2px solid #3BC6A0;
+  border-radius: 10px;
+  text-align: left;
+  display: block;
+  margin: auto;
+  transform: translate(0%, 50%);
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+form {
+  margin-left: 20px;
+}
+
+input[type=text], select {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+
+.radios {
+  display: block;
+}
+
+textarea, select {
+  width: 95%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  float: right;
+  display: block;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
